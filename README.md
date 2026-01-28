@@ -1,0 +1,1 @@
+This repository provides the python code to convert nifti structure to BIDS structure. You may need to change the conditions of the corresponding json files according the modalities you want to include in the folder. 
