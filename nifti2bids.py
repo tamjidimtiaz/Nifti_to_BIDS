@@ -22,8 +22,8 @@ import numpy as np
 # CONFIGURATION
 
 MAPPING_CSV = "..../subject_id_matching.csv" # a mapping file is a csv file which has the mapping between protocol defined subject id and a deidenfied subject ID. I used it to deidentify the subjects
-SOURCE_DIR = Path("/project/davis_group_1/group_projects/RADAR/BIDS_RADAR_CLINICAL_3T/nifti") # This is the source directory containing the nifti files
-BIDS_OUTPUT_DIR = Path("/project/davis_group_1/group_projects/RADAR/BIDS_clinical-3T") # This is the output directory
+SOURCE_DIR = Path("..../nifti") # This is the source directory containing the nifti files
+BIDS_OUTPUT_DIR = Path("..../bids") # This is the output directory
 SESSION_LABEL = "research" # name it based on your requirement
 
 
